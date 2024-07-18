@@ -50,3 +50,25 @@ const y = 8;
 
 console.log(add(x,y));
 console.log(subtract(x,y));
+
+// Extend type alias
+type BaseUser = {
+    id: number,
+    username: string,
+    email: string,
+}
+
+// Extend base user to create admin 
+type AdminUser = BaseUser & {
+    role: "admin"
+};
+
+// declare a user of type admin 
+const admin : AdminUser = {
+    id: 12342,
+    username: 'isaac',
+    email: 'isa@isa.com',
+    role: 'admin'
+};
+
+console.log(admin)

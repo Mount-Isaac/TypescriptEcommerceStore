@@ -24,3 +24,11 @@ var x = 12;
 var y = 8;
 console.log(add(x, y));
 console.log(subtract(x, y));
+// declare a user of type admin 
+var admin = {
+    id: 12342,
+    username: 'isaac',
+    email: 'isa@isa.com',
+    role: 'admin'
+};
+console.log(admin);
