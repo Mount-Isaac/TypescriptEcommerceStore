@@ -1,4 +1,4 @@
-# TypescriptEcommerceStore
+# Typescript Ecommerce Store
 
 ### Technologies
 ```
