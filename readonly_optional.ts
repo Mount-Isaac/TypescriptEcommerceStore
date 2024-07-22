@@ -30,3 +30,5 @@ console.log(user?.creditCard?.card_number && user.creditCard)
 
 user.email = "34@gmail.com"
 // user._id = "q2343" You cannot edit/update this
+
+export {}
