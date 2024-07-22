@@ -24,3 +24,6 @@ var VirtualPoint = /** @class */ (function () {
 }());
 var newVPoint = new VirtualPoint(13, 57);
 logPoint(point);
+
+
+console.log('checking commits')
