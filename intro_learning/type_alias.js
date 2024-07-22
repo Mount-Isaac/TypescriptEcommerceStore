@@ -5,14 +5,30 @@ var myVehicle = function (_a) {
 var vehicle = {
     name: 'Mark X',
     fullname: "Isaac Kyalo",
-    year: new Date('2024-07-12'),
+    year: new Date('2024-07-12')
 };
-// only an object with 3 vars can be passed and with the strict type 
-// and only if the func returns a string as required
-// Otherwise with TS violating this rule, returns an error 
-console.log(myVehicle(vehicle));
 var createUser = function (user) {
     return { name: "", email: "", isActive: false };
 };
 // takes a user and returns a user
 console.log(createUser({ name: 'isaac', email: 'email', isActive: false }));
+var newPost = {
+    title: "Isaac Equity Bank",
+    age: 22,
+    balance: 300.22
+};
+console.log(newPost);
+var add = function (x, y) { return (x + y); };
+var subtract = function (x, y) { return (x - y); };
+var x = 12;
+var y = 8;
+console.log(add(x, y));
+console.log(subtract(x, y));
+// declare a user of type admin 
+var admin = {
+    id: 12342,
+    username: 'isaac',
+    email: 'isa@isa.com',
+    role: 'admin'
+};
+console.log(admin);
